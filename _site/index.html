@@ -1,27 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title>Test Page: Don't Panic</title>
+  <meta property="og:title" content="">
+  <meta property="og:description" contents="">
+  
+    <title>Test Page: Don't Panic</title>
+  
+  
+    <meta name="description" contents="This is a dangerous site">
+  
+  <link href="/favicon.png" rel="icon">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=500, initial-scale=1">  
-  <link rel="stylesheet" href="./css/main.css">
-  <link rel="reset" href="./css/reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:100|IBM+Plex+Sans:100"
+  rel="stylesheet">
+  <
+  <link rel="stylesheet"
+        href="/fonts/font-awesome-4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="reset" href="/css/reset.css">
 </head>
+
 
   <body>
     <header class="header">
   <nav>
+    <input type="checkbox" id="mobile-menu" class="mobile-menu-check">
+    <label for="mobile-menu" class="show-mobile-menu">Menu</label>
     <ul class="header-nav nav-links">
       
 <li><a href="/">Home</a></li>
 <li><a href="/gallery">Gallery</a></li>
-<li><a href="/blog">Blog</a></li>
 <li class="dropdown">
-  <a class="drop-trigger" href="./blog">Blog</a>
+  <a class="drop-trigger" href="/blog">Blog</a>
   <ul class="drop-menu">
     <li>Recent Posts</li>
-    
-      <li><a href="/2018/01/01/title-is-nue.html">Nue</a></li>
     
       <li><a href="/2016/11/04/title-of-second-post.html">This is the title of the second post</a></li>
     
@@ -29,12 +43,12 @@
     
   </ul>
 </li>
-<li><a href="/2018/01/01/title-is-nue.html">Newest Post</a></li>
+<li><a href="/2016/11/04/title-of-second-post.html">Newest Post</a></li>
 
     </ul>
   </nav>
   <a href="/" class="header-logo">
-    <img src="./images/logo.png" alt="Learn Enough">
+    <img src="/images/logo.png" alt="Learn Enough">
   </a>
 </header>
 
@@ -46,14 +60,20 @@
     <div class="hero-content">
       <h1>CODE DANGEROUSLY</h1>
       <ul class="social-list">
-        <li class="social-link">
-          <a href="http://example.com/">Fb</a>
+        <li> 
+          <a href="https://facebook.com/learnenough" class="social-link">
+            <i class="fa fa-facebook"></i>
+          </a>
         </li>
-        <li class="social-link">
-          <a href="http://example.com/">Tw</a>
+        <li>
+          <a href="https://twitter.com/learnenough" class="social-link">
+            <i class="fa fa-twitter"></i>
+          </a>
         </li>
-        <li class="social-link">
-          <a href="http://example.com/">Gh</a>
+        <li>
+          <a href="https://github.com/learnenough" class="social-link">
+            <i class="fa fa-github"></i>
+          </a>
         </li>
       </ul>
     </div>
@@ -98,20 +118,25 @@
     <div class="blog posts">
       <header class="post-header">
         <h2>
-          <a href="/2018/01/01/title-is-nue.html">
-            Nue</a>
+          <a href="/2016/11/04/title-of-second-post.html">
+            This is the title of the second post</a>
         </h2> 
         <div class="post-byline">
           <img src="https://gravatar.com/avatar/ffda7d145b83c4b118f982401f962ca6?s=150">
-          <a href="http://twitter.com/mrnatural"
+          <a href="http://twitter.com/leedonahoe"
              class="social-link">Tw</a>
-             by: Mr. Natural
-             <span> - January 01, 2018</span>
+             by: Lee Donahoe
+             <span> - November 04, 2016</span>
         </div>
       </header>
       <div class="posts-image"
            style="background-image:url(/images/shark.jpg)"></div>
-           
+           <p>Call me <em>Ishmael</em>. Some years ago–<em>never mind how long
+precisely</em>–having little or no money in my purse, and nothing
+particular to interest me on shore, I thought I would sail about a little
+and see the watery part of the world. It is a way I have of driving off
+the spleen and regulating the circulation.</p>
+
 
           </div>
         </div>
@@ -131,7 +156,7 @@
         <img src="http://placekitten.com/g/400/400">
         <h3>Michael Hartl</h3>
         <a href="http://twitter.com/mhartl" class="social-link">
-          Tw
+           <i class="fa fa-twitter"></i>
         </a>
         <div class="bio-copy">
           <p>
@@ -155,7 +180,7 @@
         <img src="http://placekitten.com/g/400/400">
         <h3>Lee Donahoe</h3>
         <a href="https://twitter.com/leedonahoe" class="social-link">
-          Tw
+          <i class="fa fa-twitter"></i>
         </a>
         <div class="bio-copy">
           <p>
@@ -170,7 +195,7 @@
         <img src="http://placekitten.com/g/400/400">
         <h3>Nick Merwin</h3>
         <a href="https://twitter.com/nickmerwin" class="social-link">
-          Tw
+          <i class="fa fa-twitter"></i>
         </a>
         <div class="bio-copy">
           <p>
@@ -196,13 +221,10 @@
       
 <li><a href="/">Home</a></li>
 <li><a href="/gallery">Gallery</a></li>
-<li><a href="/blog">Blog</a></li>
 <li class="dropdown">
-  <a class="drop-trigger" href="./blog">Blog</a>
+  <a class="drop-trigger" href="/blog">Blog</a>
   <ul class="drop-menu">
     <li>Recent Posts</li>
-    
-      <li><a href="/2018/01/01/title-is-nue.html">Nue</a></li>
     
       <li><a href="/2016/11/04/title-of-second-post.html">This is the title of the second post</a></li>
     
@@ -210,7 +232,7 @@
     
   </ul>
 </li>
-<li><a href="/2018/01/01/title-is-nue.html">Newest Post</a></li>
+<li><a href="/2016/11/04/title-of-second-post.html">Newest Post</a></li>
 
     </ul>
   </nav>
